@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <meta name="description" content="乌拉">
+    <meta charset="UTF-8">
+    <head>
+        <style type="text/css">
+            body{ color:green }
+            h1 { color:red }
+            div {
+                text-align:center;
+            }
+            p.tip {
+                font-weight:bold;
+                color:#ff9955;
+                text-align:center;
+            }
+            #baidu {
+                color:blue;
+                width:100px;
+                height:80;
+                font-size:20px;
+            }
+            span button{
+                color:#ff9955;
+                width:100px;
+                height:60px;
+                font-size:20px;
+            }
+
+            form{
+                target:_blank;
+            }
+        </style>
+        <link rel="" type="" href="css.css">
+    </head>
+
+    <body style="background-color:lightblue" >
+        <h1 id="title1" style="text-align:center;font-family:verdana;font-size:40px"  > PETSJ的小网页 </h1>
+        <h2 style="text-align:center" > petsj </h2>
+        <a name="hello" ></a>
+        <div align="center">
+
+        <form action="https://www.baidu.com.cn/" method="turn" >
+            <input type="image"
+                   src="baidu1.jpg"
+                   alt="此处为跳转按钮"
+                   style="width:140px;height:80px"
+            />
+        </form>
+
+        <br/>
+
+            <br/>
+        </div>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+        <h2 id="myHeader">Hello World!</h2>
+        <button onclick="displayResult()">改变文本</button>
+        <script>
+        var f=1;
+        function displayResult() {
+
+        if(f==1){
+          document.getElementById("myHeader").innerHTML = "Have a nice day!";
+                f=0;
+          }
+          else {document.getElementById("myHeader").innerHTML = "Have a fucking day!";
+                f=1;
+          }
+        }
+    </script>
+    </body>
+
+
+    <body >
+
+        <div>
+            <class classname="a" align="center" >
+                <p>class</p>
+            </class>
+        </div>
+
+    <div>
+        <a type="button" id="button1" href="#hello">
+            <span>
+                <button> 跳转到百度链接 </button>
+            </span>
+        </a>
+    </div>
+
+    <div>
+        <a href="#title1">
+            <button style="width:100px;height:60px">滚回顶部</button>
+        </a>
+    </div>
+    <script>
+        function submitB(){
+
+        }
+    </script>
+    </body>
+
+
+</html>
